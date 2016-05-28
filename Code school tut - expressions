@@ -1,0 +1,13 @@
+if tweets.empty?
+puts "No tweets found"
+else
+puts "Timeline:"
+puts tweets
+
+unless attachment.file_path = nil
+attachment.post
+end
+
+if attachment.file_path
+attachment.post
+end
